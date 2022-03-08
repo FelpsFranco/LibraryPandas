@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def abre_arquivo():
-    arquivo = pd.read_excel(r'C:\Users\felip\OneDrive\Área de Trabalho\ProjetandoValores.xlsx', engine='openpyxl')
+    arquivo = pd.read_excel('ProjetandoValores.xlsx', engine='openpyxl')
     return arquivo
 
 def calcula_lucro(arquivos):
